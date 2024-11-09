@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details | Movie Ticket Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #3e8e41; /* Green */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        nav {
+            margin-top: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffd700; /* Gold */
+        }
+        main {
+            padding: 20px;
+        }
+        .movie-details {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .movie-details img {
+            width: 300px;
+            height: 450px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .movie-info {
+            max-width: 600px;
+        }
+        .movie-info h2 {
+            font-size: 32px;
+            color: #3e8e41;
+            margin-bottom: 15px;
+        }
+        .movie-info p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+        .movie-info .genre, .movie-info .release-date {
+            font-size: 16px;
+            color: #777;
+            margin-bottom: 10px;
+        }
+        .book-ticket {
+            margin-top: 30px;
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #3e8e41;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .book-ticket:hover {
+            background-color: #ffd700; /* Gold */
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Movie Ticket Booking</h1>
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="movies.html">Movies</a>
+        </nav>
+    </header>
+    <main>
+        <div class="movie-details">
+            <img src="movie-poster.jpg" alt="Movie Poster"> <!-- Replace with actual movie image -->
+            <div class="movie-info">
+                <h2>Movie Title</h2> <!-- Replace with actual movie title -->
+                <p class="genre">Genre: Action, Adventure</p> <!-- Replace with actual genre -->
+                <p class="release-date">Release Date: December 25, 2024</p> <!-- Replace with actual release date -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor metus eu ligula cursus, id tincidunt eros facilisis. Integer gravida orci eu sapien gravida, ac luctus libero varius. Vivamus non felis id lectus scelerisque tincidunt. Cras auctor lorem at felis consectetur auctor. Morbi vel turpis eget nulla tincidunt egestas.</p>
+                <a href="booking.html" class="book-ticket">Book Ticket</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
